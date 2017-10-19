@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Invoice
+  - RightFist
+  - LeftFist
   layers:
   - Default
   - TransparentFX

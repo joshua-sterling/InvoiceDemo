@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 50403752522164888}
   - component: {fileID: 61912288097587298}
   - component: {fileID: 212229088822537694}
+  - component: {fileID: 114048807771493170}
   m_Layer: 0
   m_Name: Invoice
   m_TagString: Invoice
@@ -116,6 +117,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39142105, y: 0.4656136}
   m_EdgeRadius: 0
+--- !u!114 &114048807771493170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804008055688330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64161046229c92948ad1e2705946ee2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Approved: 0
+  explosion: {fileID: 1485663665982890, guid: 77ec63f84be08484399f61f5708597bc, type: 2}
 --- !u!212 &212229088822537694
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -147,7 +161,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300002, guid: 799ec016c544c3f4e9d8eeb4ada77b4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
